@@ -65,6 +65,8 @@ Do **not** modify `ridewise.db` or the policy PDFs. Supporting indexes under `ra
 
 All credentials come from environment variables (see `.env.example`). The client uses the OpenAI SDK with NeoStats `base_url`, matching `sample_open_ai_wrapper.py`.
 
+You must be able to resolve and reach `neo-hackathon.services.ai.azure.com` (event network / internet). If DNS fails, the UI shows a connection error instead of crashing.
+
 ## Example questions
 
 - Customer (`CUST0001`): “What are my upcoming bookings?”
